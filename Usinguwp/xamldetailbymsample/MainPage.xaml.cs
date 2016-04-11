@@ -60,6 +60,7 @@ namespace xamldetailbymsample
             else
             {
                 _lastSelectedItem = null;
+                blank.Visibility = Visibility.Collapsed;
             }
 
             UpdateForVisualState(AdaptiveStates.CurrentState);
@@ -104,6 +105,7 @@ namespace xamldetailbymsample
             else
             {
                 // Play a refresh animation when the user switches detail items.
+                blank.Visibility = Visibility.Collapsed;
                 EnableContentTransitions();
             }
         }

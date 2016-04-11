@@ -12,7 +12,20 @@
     Unloaded="PageRoot_Unloaded"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"
     >
-
+    <Page.Resources>
+        <Storyboard x:Name="s1">
+            <DoubleAnimation Storyboard.TargetName="RootPanel" Storyboard.TargetProperty="Opacity" From="0" To="1" Duration="0:0:0.6">
+                <DoubleAnimation.EasingFunction>
+                    <CircleEase EasingMode="EaseOut" />
+                </DoubleAnimation.EasingFunction>
+            </DoubleAnimation>
+            <DoubleAnimation Storyboard.TargetName="RootPanel" Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateX)" From="100" To="0" Duration="0:0:0.3">
+                <DoubleAnimation.EasingFunction>
+                    <CircleEase EasingMode="EaseOut" />
+                </DoubleAnimation.EasingFunction>
+            </DoubleAnimation>
+        </Storyboard>
+    </Page.Resources>
     <Page.Transitions>
         <TransitionCollection>
             <NavigationThemeTransition />
@@ -21,6 +34,9 @@
 
     <!-- Don't realize our content by default. See PageRoot_Loaded. -->
     <StackPanel x:Name="RootPanel" x:DeferLoadStrategy="Lazy">
+        <StackPanel.RenderTransform>
+            <CompositeTransform></CompositeTransform>
+        </StackPanel.RenderTransform>
         <TextBlock
             Margin="8,0"
             Style="{ThemeResource TitleTextBlockStyle}"

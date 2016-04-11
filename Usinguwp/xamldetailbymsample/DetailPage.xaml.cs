@@ -132,6 +132,7 @@ namespace xamldetailbymsample
             {
                 // Realize the main page content.
                 FindName("RootPanel");
+                s1.Begin();
             }
 
             Window.Current.SizeChanged += Window_SizeChanged;
