@@ -107,7 +107,9 @@ namespace xamldetailbymsample
 
             if (useTransition)
             {
-                Frame.GoBack(new EntranceNavigationTransitionInfo());
+                //Frame.GoBack(new EntranceNavigationTransitionInfo());
+                Frame.GoBack(new SlideNavigationTransitionInfo());
+
             }
             else
             {
