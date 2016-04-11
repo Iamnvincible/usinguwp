@@ -9,7 +9,6 @@
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
         <Image x:Name="extendedSplashImage"
-               Height="100"
                HorizontalAlignment="Center"
                VerticalAlignment="Center"
                Source="/Assets/Ring03Part3.jpg"
