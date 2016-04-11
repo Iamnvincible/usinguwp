@@ -5,6 +5,8 @@ VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "xamldetailbyframe", "xamldetailbyframe\xamldetailbyframe.csproj", "{5E478B04-63E4-4742-B404-EA6B02D1E22B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "xamldetailbymsample", "xamldetailbymsample\xamldetailbymsample.csproj", "{CAC298B5-DE4E-4A5C-9AD0-31BBCE8A60D2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|ARM = Debug|ARM
@@ -33,6 +35,24 @@ Global
 		{5E478B04-63E4-4742-B404-EA6B02D1E22B}.Release|x86.ActiveCfg = Release|x86
 		{5E478B04-63E4-4742-B404-EA6B02D1E22B}.Release|x86.Build.0 = Release|x86
 		{5E478B04-63E4-4742-B404-EA6B02D1E22B}.Release|x86.Deploy.0 = Release|x86
+		{CAC298B5-DE4E-4A5C-9AD0-31BBCE8A60D2}.Debug|ARM.ActiveCfg = Debug|ARM
+		{CAC298B5-DE4E-4A5C-9AD0-31BBCE8A60D2}.Debug|ARM.Build.0 = Debug|ARM
+		{CAC298B5-DE4E-4A5C-9AD0-31BBCE8A60D2}.Debug|ARM.Deploy.0 = Debug|ARM
+		{CAC298B5-DE4E-4A5C-9AD0-31BBCE8A60D2}.Debug|x64.ActiveCfg = Debug|x64
+		{CAC298B5-DE4E-4A5C-9AD0-31BBCE8A60D2}.Debug|x64.Build.0 = Debug|x64
+		{CAC298B5-DE4E-4A5C-9AD0-31BBCE8A60D2}.Debug|x64.Deploy.0 = Debug|x64
+		{CAC298B5-DE4E-4A5C-9AD0-31BBCE8A60D2}.Debug|x86.ActiveCfg = Debug|x86
+		{CAC298B5-DE4E-4A5C-9AD0-31BBCE8A60D2}.Debug|x86.Build.0 = Debug|x86
+		{CAC298B5-DE4E-4A5C-9AD0-31BBCE8A60D2}.Debug|x86.Deploy.0 = Debug|x86
+		{CAC298B5-DE4E-4A5C-9AD0-31BBCE8A60D2}.Release|ARM.ActiveCfg = Release|ARM
+		{CAC298B5-DE4E-4A5C-9AD0-31BBCE8A60D2}.Release|ARM.Build.0 = Release|ARM
+		{CAC298B5-DE4E-4A5C-9AD0-31BBCE8A60D2}.Release|ARM.Deploy.0 = Release|ARM
+		{CAC298B5-DE4E-4A5C-9AD0-31BBCE8A60D2}.Release|x64.ActiveCfg = Release|x64
+		{CAC298B5-DE4E-4A5C-9AD0-31BBCE8A60D2}.Release|x64.Build.0 = Release|x64
+		{CAC298B5-DE4E-4A5C-9AD0-31BBCE8A60D2}.Release|x64.Deploy.0 = Release|x64
+		{CAC298B5-DE4E-4A5C-9AD0-31BBCE8A60D2}.Release|x86.ActiveCfg = Release|x86
+		{CAC298B5-DE4E-4A5C-9AD0-31BBCE8A60D2}.Release|x86.Build.0 = Release|x86
+		{CAC298B5-DE4E-4A5C-9AD0-31BBCE8A60D2}.Release|x86.Deploy.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
