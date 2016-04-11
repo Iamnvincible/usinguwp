@@ -56,11 +56,12 @@ namespace xamldetailbymsample
                 var id = (int)e.Parameter;
                 _lastSelectedItem =
                     items.Where((item) => item.ItemId == id).FirstOrDefault();
+                blank.Visibility = Visibility.Collapsed;
             }
             else
             {
                 _lastSelectedItem = null;
-                blank.Visibility = Visibility.Collapsed;
+                blank.Visibility = Visibility.Visible;
             }
 
             UpdateForVisualState(AdaptiveStates.CurrentState);
@@ -90,6 +91,7 @@ namespace xamldetailbymsample
             {
                 EntranceNavigationTransitionInfo.SetIsTargetElement(DetailContentPresenter, !isNarrow);
             }
+            s1.Begin();
         }
 
         private void MasterListView_ItemClick(object sender, ItemClickEventArgs e)
